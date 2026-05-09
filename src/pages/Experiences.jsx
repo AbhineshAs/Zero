@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+// High-fidelity luxury experiences curation for Zyro Trips portal.
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ScrollReveal from '../components/ScrollReveal';
