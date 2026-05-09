@@ -6,10 +6,10 @@ import ScrollReveal from '../components/ScrollReveal';
 import mistyMountainImage from '../assets/inggrid-koe-kbKEuU-YEIw-unsplash.jpg';
 import backwaterImage from '../assets/anil-jose-xavier-Tp-kViKErbw-unsplash.jpg';
 import wellnessImage from '../assets/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg';
-import spiceTrailImage from '../assets/spice_trail_kerala_1778051074883.png';
-import wayanadWildernessImage from '../assets/wayanad_wilderness_1778051091998.png';
-import kochiHeritageImage from '../assets/kochi_heritage_streets_1778051115592.png';
-import highlandsSanctuaryImage from '../assets/highlands_sanctuary_vagamon_1778051131898.png';
+import spiceTrailImage from '../assets/ajin-k-s-0tuzOfs-T3s-unsplash.jpg';
+import wayanadWildernessImage from '../assets/jacob-antony-1B3wiVIRqEM-unsplash.jpg';
+import kochiHeritageImage from '../assets/anuranj-mp-4JPav-oj83s-unsplash.jpg';
+import highlandsSanctuaryImage from '../assets/mitchell-ng-liang-an-j5YwVDEC394-unsplash.jpg';
 import emeraldEstateImage from '../assets/mohammed-nabeel-ci8XH8VnhWI-unsplash.jpg';
 import silentValleyImage from '../assets/sohayok-CiUnNM_3Yjk-unsplash.jpg';
 
