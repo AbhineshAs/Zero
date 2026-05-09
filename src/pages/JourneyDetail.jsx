@@ -6,10 +6,10 @@ import ScrollReveal from '../components/ScrollReveal';
 import mistyMountainImage from '../assets/inggrid-koe-kbKEuU-YEIw-unsplash.jpg';
 import backwaterImage from '../assets/anil-jose-xavier-Tp-kViKErbw-unsplash.jpg';
 import wellnessImage from '../assets/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg';
-import spiceTrailImage from '/Users/abhineshas/.gemini/antigravity/brain/46a2aeac-4e16-431f-b01d-fa5020027c63/spice_trail_kerala_1778051074883.png';
-import wayanadWildernessImage from '/Users/abhineshas/.gemini/antigravity/brain/46a2aeac-4e16-431f-b01d-fa5020027c63/wayanad_wilderness_1778051091998.png';
-import kochiHeritageImage from '/Users/abhineshas/.gemini/antigravity/brain/46a2aeac-4e16-431f-b01d-fa5020027c63/kochi_heritage_streets_1778051115592.png';
-import highlandsSanctuaryImage from '/Users/abhineshas/.gemini/antigravity/brain/46a2aeac-4e16-431f-b01d-fa5020027c63/highlands_sanctuary_vagamon_1778051131898.png';
+import spiceTrailImage from '../assets/spice_trail_kerala_1778051074883.png';
+import wayanadWildernessImage from '../assets/wayanad_wilderness_1778051091998.png';
+import kochiHeritageImage from '../assets/kochi_heritage_streets_1778051115592.png';
+import highlandsSanctuaryImage from '../assets/highlands_sanctuary_vagamon_1778051131898.png';
 import emeraldEstateImage from '../assets/mohammed-nabeel-ci8XH8VnhWI-unsplash.jpg';
 import silentValleyImage from '../assets/sohayok-CiUnNM_3Yjk-unsplash.jpg';
 
