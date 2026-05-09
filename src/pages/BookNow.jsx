@@ -31,7 +31,7 @@ const BookNow = () => {
   return (
     <div className="book-now-page page-transition">
       <Navbar />
-      
+
       <section className="section" style={{ paddingTop: '160px', background: 'var(--bg-primary)' }}>
         <div className="container">
           <div className="responsive-grid" style={{ gap: '80px' }}>
@@ -42,7 +42,7 @@ const BookNow = () => {
                 <p style={{ color: 'var(--text-secondary)', fontSize: '18px', maxWidth: '500px', lineHeight: '1.6' }}>
                   Complete our digital concierge form to begin the curation of your personalized Kerala experience. Our lifestyle managers will respond with a tailored itinerary within 2 hours.
                 </p>
-                
+
                 <div style={{ marginTop: '60px', display: 'grid', gap: '30px' }}>
                   <div>
                     <h4 style={{ color: 'var(--accent-gold)', fontSize: '12px', letterSpacing: '2px', marginBottom: '10px' }}>24/7 CONCIERGE</h4>
@@ -51,7 +51,7 @@ const BookNow = () => {
                   </div>
                   <div>
                     <h4 style={{ color: 'var(--accent-gold)', fontSize: '12px', letterSpacing: '2px', marginBottom: '10px' }}>EMAIL ENQUIRIES</h4>
-                    <p style={{ color: 'var(--text-primary)' }}>concierge@zyrotrips.com</p>
+                    <p style={{ color: 'var(--text-primary)' }}>zyrotrips@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -64,20 +64,20 @@ const BookNow = () => {
                     <div className="form-grid">
                       <div className="form-group">
                         <label>DESTINATION</label>
-                        <input 
-                          type="text" 
-                          placeholder="e.g. Munnar, Alleppey" 
-                          required 
+                        <input
+                          type="text"
+                          placeholder="e.g. Munnar, Alleppey"
+                          required
                           value={formData.destination}
-                          onChange={(e) => setFormData({...formData, destination: e.target.value})}
+                          onChange={(e) => setFormData({ ...formData, destination: e.target.value })}
                         />
                       </div>
-                      
+
                       <div className="form-group">
                         <label>TRANSPORT MODE</label>
-                        <select 
+                        <select
                           value={formData.transportType}
-                          onChange={(e) => setFormData({...formData, transportType: e.target.value})}
+                          onChange={(e) => setFormData({ ...formData, transportType: e.target.value })}
                         >
                           <option>Luxury Sedan (BMW/Audi)</option>
                           <option>Luxury SUV (Fortuner/Endeavour)</option>
@@ -89,44 +89,44 @@ const BookNow = () => {
 
                       <div className="form-group">
                         <label>NO. OF GUESTS</label>
-                        <input 
-                          type="number" 
-                          min="1" 
-                          required 
+                        <input
+                          type="number"
+                          min="1"
+                          required
                           value={formData.passengers}
-                          onChange={(e) => setFormData({...formData, passengers: e.target.value})}
+                          onChange={(e) => setFormData({ ...formData, passengers: e.target.value })}
                         />
                       </div>
 
                       <div className="form-group">
                         <label>DURATION (DAYS)</label>
-                        <input 
-                          type="number" 
-                          min="1" 
-                          required 
+                        <input
+                          type="number"
+                          min="1"
+                          required
                           value={formData.days}
-                          onChange={(e) => setFormData({...formData, days: e.target.value})}
+                          onChange={(e) => setFormData({ ...formData, days: e.target.value })}
                         />
                       </div>
 
                       <div className="form-group">
                         <label>START DATE</label>
-                        <input 
-                          type="date" 
-                          required 
+                        <input
+                          type="date"
+                          required
                           value={formData.startDate}
-                          onChange={(e) => setFormData({...formData, startDate: e.target.value})}
+                          onChange={(e) => setFormData({ ...formData, startDate: e.target.value })}
                         />
                       </div>
                     </div>
 
                     <div className="form-group" style={{ marginTop: '30px' }}>
                       <label>SPECIAL REQUESTS</label>
-                      <textarea 
+                      <textarea
                         placeholder="Tell us about your vision..."
                         rows="4"
                         value={formData.requests}
-                        onChange={(e) => setFormData({...formData, requests: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, requests: e.target.value })}
                       ></textarea>
                     </div>
 
